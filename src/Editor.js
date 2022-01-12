@@ -6,8 +6,8 @@ function Editor() {
     const [title, setTitle] = useState('')
     const [mainImageURL, setMainImageURL] = useState('')
     const [imageNum, setImageNum] = useState('')
-    const [imagesURL, setImagesURL] = useState('')
-    const [imagesCaption, setImagesCaption] = useState('')
+    const [imagesURL, setImagesURL] = useState([])
+    const [imagesCaption, setImagesCaption] = useState([])
     const [text, setText] = useState('')
     const [error, setError] = useState('')
 

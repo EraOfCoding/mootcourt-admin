@@ -38,3 +38,24 @@
   background-color: #113156;
   color: whitesmoke;
 }
+
+@media only screen and (max-width: 700px) {
+  .postform-input {
+    font-size: 1rem;
+    width: 90vw;
+  }
+
+  .postform {
+    padding: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .postform-textarea {
+    width: 90%;
+  }
+
+  .section-title {
+    font-size: 3rem;
+  }
+}
