@@ -1,0 +1,40 @@
+.postform-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postform {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postform-input {
+  margin: 10px;
+  font-size: 1.2rem;
+  width: 500px;
+  height: 35px;
+}
+
+.postform-textarea {
+  font-family: "Nunito-regular";
+  font-size: 1.5rem;
+  outline: none;
+  resize: none;
+  margin-top: 20px;
+  width: 500px;
+  height: 200px;
+}
+
+.adminform-btn {
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  height: 50px;
+  width: 130px;
+  background-color: #113156;
+  color: whitesmoke;
+}
